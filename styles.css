@@ -1,0 +1,107 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'mifuente';
+    src: url('../fonts/mifuente.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    background: #cbeef8;
+    color: #6f839c;
+    line-height: 1.6;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+main{
+    max-width: 350px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(44, 62, 80, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: fadeInDown 1s ease forwards;
+}
+
+@keyframes fadeInDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+
+    header{
+        background: linear-gradient(135deg, #4a90e2, #70aee0);
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 15px;
+    }
+
+    header img{
+        width: 220px;
+        height: 250px;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #456c8b;
+        box-shadow: 0 0 30px;
+        margin: 0 auto 15px;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        cursor: pointer;
+    }
+
+    header img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 25px #a2ccf0ff;
+    }
+
+    h1{
+        font-family: 'mifuente';
+        font-size: 1.9rem;
+        margin: 0 0 5px;
+        letter-spacing: 1.2 px;
+        text-shadow:  0 1px 3px rgba (0, 0, 0, 4);
+        box-shadow: 0 0 30px;
+    }
+
+    .perfil{
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 280px;
+        margin: 0 auto;
+        line-height: 1.4;
+        font-style: italic;
+        letter-spacing: 0.3px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        text-align: justify;
+    }
+
+    section{
+        padding: 20px;
+        border-bottom: 4px solid #ddd;
+    }
+
+    section :last-of-type {
+        border-bottom: none;
+    }
+
+    h2{
+
+    }
