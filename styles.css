@@ -73,22 +73,21 @@ main{
 
     h1{
         font-family: 'mifuente';
-        font-size: 1.9rem;
+        font-size: 2rem;
         margin: 0 0 5px;
-        letter-spacing: 1.2 px;
+        letter-spacing: 1.4 px;
         text-shadow:  0 1px 3px rgba (0, 0, 0, 4);
         box-shadow: 0 0 30px;
     }
 
     .perfil{
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 400;
         max-width: 280px;
         margin: 0 auto;
         line-height: 1.4;
         font-style: italic;
         letter-spacing: 0.3px;
-        word-wrap: break-word;
         overflow-wrap: break-word;
         text-align: justify;
     }
@@ -103,5 +102,53 @@ main{
     }
 
     h2{
-
+        font-family: 'mifuente';
+        color: #4a90e2;
+        font-size: 2.0rem;
+        margin-bottom: 12px;
+        border-left: 5px solid #70aee0;
+        padding-left: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        overflow-wrap: break-word;
     }
+
+    h3{
+        font-family: 'mifuente';
+        color: #70aee0;
+        font-size: 1.8rem;
+        margin: 10px 0;
+        overflow-wrap: break-word;
+        letter-spacing: 1.4px;
+    }
+
+    ul{
+        list-style-type:circle;
+        padding-left: 2; 
+        margin: 0;
+    }
+
+    ul li{
+        margin-bottom: 10px;
+        line-height: 1.4;
+        text-indent: -15px;
+        padding-left: 15px;
+        position: relative;
+        overflow-wrap: break-word;
+    }
+
+    ul li ::before{
+        content: '·';
+        color: #70aee0;
+        position: absolute;
+        left: 0;
+        font-size: 1.5rem;
+        top: 0;
+    }
+
+    p {
+        margin: 6px 0;
+        color: #34495e ;
+        overflow-wrap: break-word;
+    }
+    
