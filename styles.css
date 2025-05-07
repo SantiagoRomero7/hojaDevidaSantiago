@@ -91,7 +91,48 @@ main{
         letter-spacing: 0.3px;
         overflow-wrap: break-word;
         text-align: justify;
+
     }
+
+    .skills-bar {
+        margin-top: 45px;
+        padding-top: 25px;
+        border-top: 2px solid white;
+      }
+      
+      .skills-bar p {
+        margin: 10px 0 5px;
+        font-weight: bold;
+      }
+      
+      .bar {
+        background-color: #e0e0e0;
+        border-radius: 20px;
+        overflow: hidden;
+        height: 25px;
+        margin-bottom: 15px;
+      }
+      
+      .fill {
+        height: 100%;
+        background-color: #3399ff;
+        text-align: right;
+        padding-right: 10px;
+        line-height: 25px;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px 0 0 20px;
+        transition: width 0.6s ease;
+      }
+      
+      .skills-bar h4{
+        margin-bottom: 15px;
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'mifuente';
+        text-align: center;
+      }
+      
 
     section{
         padding: 20px;
