@@ -132,6 +132,20 @@ main{
         font-family: 'mifuente';
         text-align: center;
       }
+
+      .lema{
+        margin-top: 45px;
+        padding-top: 40px;
+        border-top: 2px solid #ddd;
+        font-style: italic;
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+        color: #4a90e2;
+        text-align: justify;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
       
 
     section{
