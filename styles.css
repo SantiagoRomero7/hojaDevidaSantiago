@@ -158,10 +158,15 @@ h1 {
 section {
     padding: 20px;
     border-bottom: 4px solid #ddd;
+    transition: background-color 3s ease;
 }
 
 section :last-of-type {
     border-bottom: none;
+}
+
+section:hover {
+    background-color: #f9f9f9;
 }
 
 h2 {
@@ -234,11 +239,13 @@ p {
     box-shadow: 0px 4px 8px rgba(112, 174, 224, 0.4);
     transition: background-color 0.3s ease, transform 0.3s ease;
     overflow-wrap: break-word;
+    text-align: center;
 }
 
 .redes a:hover,
 .redes a:focus {
     background-color: #91bff9;
+    color: #ffffff;
     transform: scale(1.1);
     outline: none;
 }
@@ -276,87 +283,77 @@ p {
 
 @media (max-width: 768px) {
     body {
-        flex-direction: column;
-        padding: 10px;
+      flex-direction: column;
+      padding: 10px;
     }
-
+  
     main {
-        max-width: 90%;
-        border-radius: 12px;
-        padding: 15px;
+      width: 90%;
+      padding: 15px;
+      border-radius: 12px;
     }
-
+  
     header {
-        padding: 25px 20px;
+      width: 90%;
+      padding: 25px 20px;
     }
-
+  
     header img {
-        width: 180px;
-        height: 180px;
+      width: 180px;
+      height: 180px;
     }
-
+  
     h1 {
-        font-size: 1.8rem;
-        letter-spacing: 1.4px;
+      font-size: 1.8rem;
     }
-
+  
     .perfil,
     .lema {
-        font-size: 1.2rem;
-        max-width: 100%;
+      font-size: 1.2rem;
     }
-
+  
     .skills-bar h4 {
-        font-size: 1.3rem;
+      font-size: 1.3rem;
     }
-
+  
     h2,
     h3 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-
-    .redes {
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
+  
     .redes a {
-        padding: 10px 16px;
-        font-size: 0.95rem;
+      padding: 10px 16px;
+      font-size: 0.95rem;
     }
-}
-
-/* Móviles pequeños */
-@media (max-width: 480px) {
-    header {
-        padding: 20px 10px;
-    }
-
+  }
+  
+  @media (max-width: 480px) {
     header img {
-        width: 140px;
-        height: 140px;
+      width: 140px;
+      height: 140px;
     }
-
+  
     h1 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-
+  
     .perfil,
     .lema {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .skills-bar h4 {
-        font-size: 1.1rem;
+      font-size: 1.1rem;
     }
-
+  
     h2,
     h3 {
-        font-size: 1.3rem;
+      font-size: 1.3rem;
     }
-
+  
     .redes a {
-        padding: 8px 14px;
-        font-size: 0.9rem;
+      padding: 8px 14px;
+      font-size: 0.9rem;
     }
-}
+  }
+  
